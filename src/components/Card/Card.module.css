@@ -1,0 +1,35 @@
+.box {
+    position: relative;
+    height: 300px;
+}
+
+.image {
+    width: 100%;
+    height: 100%;
+    border-radius: 5%;
+    box-shadow: 5px 5px 3px rgba(0, 0, 0, 0.2);
+    object-fit: cover;
+    object-position: top;
+}
+
+.like {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    width: 20px;
+    height: 20px;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    z-index: 2;
+    object-fit: contain;
+    box-sizing: border-box;
+}
+
+.withLike {
+    background-image: url(../../images/like_filled.png);
+}
+
+.withoutLike {
+    background-image: url(../../images/like_empty.png);
+}
